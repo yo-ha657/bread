@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+			  src="https://code.jquery.com/jquery-3.6.0.js"
+			  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			  crossorigin="anonymous">
+    </script>
+    
+    <script>
+        $(function () {
+            $('.js-btn').on('click', function () {        // js-btnクラスをクリックすると、
+              $('.menu , .btn-line').toggleClass('open'); // メニューとバーガーの線にopenクラスをつけ外しする
+            })
+          });
+    </script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>森の中のパン屋さん</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <div class="header-left">
+
+                <div class="shop-name">
+                    <h1>森の中のパン屋さん</h1>
+                </div>
+            
+            </div>
+
+            <div class="header-right">
+                <nav>
+                    <button type="button" class="btn js-btn">
+                        <span class="btn-line"></span>
+                    </button>
+
+                    <div class="menu">
+                        <ul>
+                            <li><a href="">お知らせ</a></li>
+                            <li><a href="">メニュー</a></li>
+                            <li><a href="">アクセス</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>  
+
+         </div>
+    </header>
+
+    
+    <div class="top-wrapper">
+        <div class="container">
+            <div class="top-img"><div class="top-msg"><h1><span class="top-msg-back">焼きたてのパンをあなたに</span></h1></div></div>
+            
+
+        </div>
+
+    </div>
+
+    <div class="about-wrapper">
+        <div class="container">
+            <h1>当店のこだわり</h1>
+
+            <div class="about-list">
+                <ul>
+                    <li>
+                        <img class= "about-list-img img-1" src="img/michal-prucha-qVKLnAbqZ_0-unsplash.jpg" alt="">
+                        <p>私たちは,店の場所にもこだわりました。
+                            おいしい水が湧き出る山地でお店を開いています。
+                        </p>
+                    </li>
+                    <li>
+                        <img class="about-list-img img-2" src="/img/martin-schalter-qKgfQR7-dzM-unsplash.jpg" alt="">
+                        <p>より多くの人に焼きたてを味わってもらいたい。私たちは、開店時間中、少しずつたくさんのパンを焼きあげています。
+
+                        </p>
+                    </li>
+                    <li>
+                        <img class="about-list-img img-3" src="/img/bas-van-den-eijkhof-uLR3FD1kQSM-unsplash.jpg" alt="">
+                        <p>素材にもこだわっています。小麦粉、バターなどの原材料は、全て当店の厳しい品質基準をクリアしたもののみを使用しています。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="running-wrapper">
+        <div class="container">
+            <h1>営業時間</h1>
+            
+                <div class="open-time-box">
+                    <div class="open-time-box-left">
+                        <h2>火曜日～金曜日</h2>
+                    </div>
+
+                    <div class="open-time-box-right">
+                        <h3>9:00～18:00</h3>
+                    </div>
+                </div>
+
+                <div class="open-time-box">
+                    <div class="open-time-box-left">
+                        <h2>土曜日～日曜日</h2>
+                    </div>
+
+                    <div class="open-time-box-right">
+                        <h3>9:00～15:00</h3>
+                    </div>
+                
+                </div>
+            
+
+            <h2>毎週月曜日は店休日です。</h2>
+           
+
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <a href="#" class="btn-sns twitter">
+            <span class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span></a>
+
+            <a href="#" class="btn-sns facebook">
+            <span class="fa-stack fa-3x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span></a>
+
+            <a href="#" class="btn-sns instagram">
+                <span class="fa-stack fa-3x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span></a>
+            
+            <p>Copyright Y.H All rights reserved</p>
+
+        </div>
+
+        <div class="container-sp">
+            <a href="#" class="btn-sns twitter">
+            <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span></a>
+
+            <a href="#" class="btn-sns facebook">
+            <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+            </span></a>
+
+            <a href="#" class="btn-sns instagram">
+                <span class="fa-stack fa-2x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span></a>
+            
+            <p>© 2022 Y.H</p>
+
+        </div>
+    </footer>
+
+    
+
+</body>
+</html>
