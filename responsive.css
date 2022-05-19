@@ -18,8 +18,20 @@
 
     body {
         font-size: 0.6rem;
+        max-width: 100vh;
+        overflow-x: hidden;
         
-        }
+      
+        
+        
+        
+    }
+
+    .container {
+        
+        
+        
+    }
     
     .top-wrapper .container {
         height: 300px;
