@@ -147,7 +147,7 @@ header .container .header-right {
 
 .top-wrapper .container {
     height: 700px;
-    background-image: url(./img/top-bread.jpg);
+    background-image: url(img/top-bread.jpg);
     background-size:cover;
     
     position: relative;
