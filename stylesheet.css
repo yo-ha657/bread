@@ -147,7 +147,7 @@ header .container .header-right {
 
 .top-wrapper .container {
     height: 700px;
-    background-image: url(img/top-bread.jpg);
+    background-image: url(./img/top-bread.jpg);
     background-size:cover;
     
     position: relative;
@@ -169,6 +169,8 @@ header .container .header-right {
     background-color:rgba(233, 212, 77, 0.6);
     box-shadow:  0 0 20px 20px  rgba(233, 212, 77, 0.6);
     padding: 5px;
+    margin: 1px;
+    will-change: transform;
     
 }
 
