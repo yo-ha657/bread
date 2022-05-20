@@ -162,15 +162,16 @@ header .container .header-right {
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
-    padding: 1px;
     will-change: transform;
  
 }
 
 .top-msg-back {
     background-color:rgba(233, 212, 77, 0.6);
-    box-shadow:  0 0 10px 10px  rgba(233, 212, 77, 0.6);
+    box-shadow: 0 0  10px 10px  rgba(233, 212, 77, 0.6);
     will-change: transform;
+    padding: 3px;
+    
     
 }
 
