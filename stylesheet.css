@@ -170,7 +170,7 @@ header .container .header-right {
     background-color:rgba(233, 212, 77, 0.6);
     box-shadow: 0 0  10px 10px  rgba(233, 212, 77, 0.6);
     will-change: transform;
-    padding: 3px;
+    margin: 3px;
     
     
 }
